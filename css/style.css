@@ -9,12 +9,12 @@ body {
     background-color: #ee541c;
     width: 100%;
     position: fixed;
-    top:20px;
 }
 
 ul {
     position:relative;
     bottom: 10px;
+    right: 50px;
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -26,7 +26,7 @@ ul {
 li {
     font-weight: bold;
     margin: 20px;
-    font-family: 'Baloo Bhai', cursive;
+    font-family: 'Roboto', sans-serif;
 }
 
 
@@ -37,9 +37,9 @@ li {
 
 #em {
     color: rgb(0, 11, 48);
-    font-family: 'Anton', sans-serif;
+    font-family: 'Merriweather Sans', sans-serif;
     text-align: middle;
-    padding-left: 20px;
+    padding-left: 60px;
 }
 
 .sec1 {}
