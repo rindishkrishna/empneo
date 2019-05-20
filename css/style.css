@@ -1,21 +1,24 @@
 body {
     background-color: #ff652f;
-    margin: 0px 0px 0px 0px;
+    margin: 0px;
     padding: 0px;
 }
 
-.header {
+#header {
     height: 80px;
     background-color: #ee541c;
+    width: 100%;
+    position: fixed;
+    top:20px;
 }
 
 ul {
-    position: relative;
+    position:relative;
+    bottom: 10px;
     list-style-type: none;
     margin: 0;
     padding: 0;
     height: auto;
-    top: 10px;
     display: flex;
     float: right;
 }
@@ -26,13 +29,16 @@ li {
     font-family: 'Baloo Bhai', cursive;
 }
 
-.navbar {}
+
+.navbar a{
+    text-decoration: none;
+    color:black;
+}
 
 #em {
     color: rgb(0, 11, 48);
     font-family: 'Anton', sans-serif;
     text-align: middle;
-    padding-top: 20px;
     padding-left: 20px;
 }
 
