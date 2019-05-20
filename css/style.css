@@ -4,16 +4,20 @@ body {
     padding: 0px;
 }
 
-#header {
+.navbar {
     height: 80px;
     background-color: #ee541c;
     width: 100%;
     position: fixed;
 }
-
-ul {
+#drop{
+    position: fixed;
+    top:80px;
+}
+#menu-list {
     position:relative;
     bottom: 10px;
+    top:10px;
     right: 50px;
     list-style-type: none;
     margin: 0;
@@ -23,13 +27,41 @@ ul {
     float: right;
 }
 
+button{
+    position:relative;
+    float: right;
+    top:20px;
+    width:40px;
+    height: 40px;
+    border-radius: 50%;
+    border-style: solid;
+    background-color: #ff652f;
+    border-color: #777676;
+    right: 50px;
+    display: none;
+}
+#men{
+    width:20px;
+}
 li {
     font-weight: bold;
     margin: 20px;
     font-family: 'Roboto', sans-serif;
 }
+#drop{
+    width:100%;
+    height: auto;
+    border-bottom: black solid thin;
+    display: none;
+}
 
-
+#drop-list{
+    list-style: none;
+}
+#drop-list a{
+    text-decoration: none;
+    color: black;
+}
 .navbar a{
     text-decoration: none;
     color:black;
@@ -43,3 +75,12 @@ li {
 }
 
 .sec1 {}
+
+@media (max-width:700px){
+    #menu-list{
+        display: none;
+    }
+    button{
+        display: block;
+    }
+}
