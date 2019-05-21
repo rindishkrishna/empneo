@@ -11,12 +11,15 @@ main{
 }
 header{
     z-index: 10;
+    position: fixed;
+    width: 100%;
 }
 .navbar {
     height: 80px;
     background-color: #1864ab;
     width: 100%;
     position: fixed;
+    top:0px;
 }
 
 #drop {
@@ -88,6 +91,21 @@ li {
     text-align: middle;
     padding-left: 60px;
 }
+
+.sec1 {}
+
+
+
+
+@media (max-width:700px) {
+    #menu-list {
+        display: none;
+    }
+    button {
+        display: block;
+    }
+}
+
 #clouds {
     bottom: 0px;
     left: 0px;
@@ -146,9 +164,8 @@ li {
     padding: 50px;
 
 }
-
-
 /* FOOTER */
+
 .f_title {
   font-family: "Francois One", sans-serif;
   font-size: 40px;
@@ -230,13 +247,8 @@ li {
   font-size: 23px;
   color: #ced4da;
   text-shadow: 2px 2px 4px #000000;
-
-@media (max-width:700px) {
-    #menu-list {
-        display: none;
-    }
-    button {
-        display: block;
-    }
+    widows: 100%;
 }
-
+#row{
+    width:100%;
+}
