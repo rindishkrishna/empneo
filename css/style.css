@@ -6,7 +6,7 @@ body {
 
 .navbar {
     height: 80px;
-    background-color: #ee541c;
+    background-color: #1864ab;
     width: 100%;
     position: fixed;
 }
@@ -81,6 +81,92 @@ li {
     padding-left: 60px;
 }
 
+.sec1 {}
+
+
+/* FOOTER */
+.f_title {
+  font-family: "Francois One", sans-serif;
+  font-size: 40px;
+}
+.Empneo {
+  font-family: "Macondo Swash Caps", cursive;
+  font-size: 90px;
+  color: white;
+  text-shadow: 2px 2px 4px #000000;
+  padding:20px;
+  margin: 0px;
+  height: 165px !important;
+}
+.f_content {
+  font-family: "Roboto Slab", serif;
+  font-size: 23px;
+ 
+}
+.f_content:hover {
+  text-decoration:none;
+   
+}
+.Explore {
+  padding: 40px;
+  padding-left: 200px;
+  font-size: 20px;
+  height: 235px !important;
+}
+.icons :nth-child(odd):hover,
+.icons :nth-child(even):hover {
+  transform: scale(1.3);
+  opacity: 0.4;
+  transition: 0.2s all ease-in-out;
+}
+.copyrights {
+  font-family: "Roboto Slab", serif;
+  font-size: 23px;
+  color: #ced4da;
+  text-shadow: 2px 2px 4px #000000;
+}
+.col-sm-3 {
+  padding: 40px;
+  font-size: 20px;
+}
+
+.f_title {
+  font-family: "Francois One", sans-serif;
+  font-size: 40px;
+}
+.Empneo {
+  font-family: "Macondo Swash Caps", cursive;
+  font-size: 90px;
+  color: white;
+  text-shadow: 2px 2px 4px #000000;
+  padding:20px;
+}
+.f_content {
+  font-family: "Roboto Slab", serif;
+  font-size: 23px;
+ 
+}
+.f_content:hover {
+  text-decoration:none;
+   
+}
+.Explore {
+  padding: 40px;
+  padding-left: 200px;
+  font-size: 20px;
+}
+.icons :nth-child(odd):hover,
+.icons :nth-child(even):hover {
+  transform: scale(1.3);
+  opacity: 0.4;
+  transition: 0.2s all ease-in-out;
+}
+.copyrights {
+  font-family: "Roboto Slab", serif;
+  font-size: 23px;
+  color: #ced4da;
+  text-shadow: 2px 2px 4px #000000;
+
 @media (max-width:700px) {
     #menu-list {
         display: none;
@@ -146,4 +232,5 @@ li {
 
 #pe {
     padding: 50px;
+
 }
