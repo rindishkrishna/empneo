@@ -89,7 +89,65 @@ li {
     padding-left: 60px;
 }
 
-.sec1 {}
+.
+#clouds {
+    bottom: 0px;
+    left: 0px;
+}
+
+#clouds path {
+    fill: rgb(156, 14, 14);
+}
+
+#day1 {
+    background-color: rgb(156, 14, 14);
+    padding-bottom: 18px;
+}
+
+.day1t {
+    color: #ffff;
+}
+
+#day2 {
+    background-color: rgb(38, 130, 184);
+    margin: 0;
+    padding-bottom: 18px;
+}
+
+.day2t {
+    color: rgb(14, 2, 2);
+}
+
+#bigTriangleColor1 path {
+    margin: 0;
+    fill: rgb(156, 14, 14);
+}
+
+#bigTriangleColor2 path {
+    margin: 0;
+    fill: rgb(38, 130, 184);
+}
+
+.workshops {
+    text-align: center;
+}
+
+.contact {
+    text-align: center;
+    background-color: rgb(219, 17, 17);
+}
+
+.pl {
+    position: relative;
+    display: flex;
+    list-style-type: none;
+    ;
+}
+
+#pe {
+    padding: 50px;
+
+}
 
 
 /* FOOTER */
@@ -184,61 +242,3 @@ li {
     }
 }
 
-#clouds {
-    bottom: 0px;
-    left: 0px;
-}
-
-#clouds path {
-    fill: rgb(156, 14, 14);
-}
-
-#day1 {
-    background-color: rgb(156, 14, 14);
-    padding-bottom: 18px;
-}
-
-.day1t {
-    color: #ffff;
-}
-
-#day2 {
-    background-color: rgb(38, 130, 184);
-    margin: 0;
-    padding-bottom: 18px;
-}
-
-.day2t {
-    color: rgb(14, 2, 2);
-}
-
-#bigTriangleColor1 path {
-    margin: 0;
-    fill: rgb(156, 14, 14);
-}
-
-#bigTriangleColor2 path {
-    margin: 0;
-    fill: rgb(38, 130, 184);
-}
-
-.workshops {
-    text-align: center;
-}
-
-.contact {
-    text-align: center;
-    background-color: rgb(219, 17, 17);
-}
-
-.pl {
-    position: relative;
-    display: flex;
-    list-style-type: none;
-    ;
-}
-
-#pe {
-    padding: 50px;
-
-}
