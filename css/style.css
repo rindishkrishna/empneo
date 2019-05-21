@@ -1,5 +1,5 @@
 body {
-    background-color: #ff652f;
+    background-color: #ffffff;
     margin: 0px;
     padding: 0px;
 }
@@ -10,14 +10,16 @@ body {
     width: 100%;
     position: fixed;
 }
-#drop{
+
+#drop {
     position: fixed;
-    top:80px;
+    top: 80px;
 }
+
 #menu-list {
-    position:relative;
+    position: relative;
     bottom: 10px;
-    top:10px;
+    top: 10px;
     right: 50px;
     list-style-type: none;
     margin: 0;
@@ -27,11 +29,11 @@ body {
     float: right;
 }
 
-button{
-    position:relative;
+button {
+    position: relative;
     float: right;
-    top:20px;
-    width:40px;
+    top: 20px;
+    width: 40px;
     height: 40px;
     border-radius: 50%;
     border-style: solid;
@@ -40,31 +42,36 @@ button{
     right: 50px;
     display: none;
 }
-#men{
-    width:20px;
+
+#men {
+    width: 20px;
 }
+
 li {
     font-weight: bold;
     margin: 20px;
     font-family: 'Roboto', sans-serif;
 }
-#drop{
-    width:100%;
+
+#drop {
+    width: 100%;
     height: auto;
     border-bottom: black solid thin;
     display: none;
 }
 
-#drop-list{
+#drop-list {
     list-style: none;
 }
-#drop-list a{
+
+#drop-list a {
     text-decoration: none;
     color: black;
 }
-.navbar a{
+
+.navbar a {
     text-decoration: none;
-    color:black;
+    color: black;
 }
 
 #em {
@@ -74,160 +81,69 @@ li {
     padding-left: 60px;
 }
 
-.sec1 {}
-
-@media (max-width:700px){
-    #menu-list{
+@media (max-width:700px) {
+    #menu-list {
         display: none;
     }
-    button{
+    button {
         display: block;
     }
 }
-html, body{
-    width: 100%;
-    height: 100%;
-    padding: 0;
-    margin: 0px;
-   }
-   
-   slider {
-    display: block;
-    width: 100%;
-    height: 100%;
-    background-color: #1f1f1f;
-    overflow: hhtml, body{
-    width: 100%;
-    height: 100%;
-    padding: 0;
-    margin: 0px;
-   }
-   
-   slider {
-    display: block;
-    width: 100%;
-    height: 100%;
-    background-color: #1f1f1f;
-    overflow: hidden;
-    position: absolute;
-   }
-   
-   slider > * {
-    position: absolute;
-    display: block;
-    width: 100%;
-    height: 100%;
-    background: #1f1f1f;
-    animation: slide 12s infinite;
-    overflow: hidden;
-   }
-   
-   slide:nth-child(1){
-    left: 0%;
-    animation-delay: -1s;
-    background-image: url(images/1.jpg);
-    background-size: cover;
-    background-position: center;
-   }
-   
-   slide:nth-child(2){
-    animation-delay: 2s;
-    background-image: url(images/2.jpg);
-    background-size: cover;
-    background-position: center;
-   }
-   
-   slide:nth-child(3){
-    animation-delay: 5s;
-    background-image: url(images/3.jpg);
-    background-size: cover;
-    background-position: center;
-   }
-   
-   slide:nth-child(4){
-    left: 0%;
-    animation-delay: 8s;
-    background-image: url(images/4.jpg);
-    background-size: cover;
-    background-position: center;
-   }
-   
-   slide p {
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-size: 70px;
+
+#clouds {
+    bottom: 0px;
+    left: 0px;
+}
+
+#clouds path {
+    fill: rgb(156, 14, 14);
+}
+
+#day1 {
+    background-color: rgb(156, 14, 14);
+    padding-bottom: 18px;
+}
+
+.day1t {
+    color: #ffff;
+}
+
+#day2 {
+    background-color: rgb(38, 130, 184);
+    margin: 0;
+    padding-bottom: 18px;
+}
+
+.day2t {
+    color: rgb(14, 2, 2);
+}
+
+#bigTriangleColor1 path {
+    margin: 0;
+    fill: rgb(156, 14, 14);
+}
+
+#bigTriangleColor2 path {
+    margin: 0;
+    fill: rgb(38, 130, 184);
+}
+
+.workshops {
     text-align: center;
-    display: inline-block;
-    width: 100%;
-    margin-top: 340px;
-    color: #fff;
-   }
-   
-   @keyframes slide {
-    0% { left: 100%; width: 100%; }
-    5% { left: 0%; }
-    25% { left: 0%; }
-    30% { left: -100%; width: 100%; }
-    30.0001% { left: -100%; width: 0%; }
-    100% { left: 100%; width: 0%; }
-   }idden;
-    position: absolute;
-   }
-   
-   slider > * {
-    position: absolute;
-    display: block;
-    width: 100%;
-    height: 100%;
-    background: #1f1f1f;
-    animation: slide 12s infinite;
-    overflow: hidden;
-   }
-   
-   slide:nth-child(1){
-    left: 0%;
-    animation-delay: -1s;
-    background-image: url(1.jpg);
-    background-size: cover;
-    background-position: center;
-   }
-   
-   slide:nth-child(2){
-    animation-delay: 2s;
-    background-image: url(2.jpg);
-    background-size: cover;
-    background-position: center;
-   }
-   
-   slide:nth-child(3){
-    animation-delay: 5s;
-    background-image: url(3.jpg);
-    background-size: cover;
-    background-position: center;
-   }
-   
-   slide:nth-child(4){
-    left: 0%;
-    animation-delay: 8s;
-    background-image: url(4.jpg);
-    background-size: cover;
-    background-position: center;
-   }
-   
-   slide p {
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-size: 70px;
+}
+
+.contact {
     text-align: center;
-    display: inline-block;
-    width: 100%;
-    margin-top: 340px;
-    color: #fff;
-   }
-   
-   @keyframes slide {
-    0% { left: 100%; width: 100%; }
-    5% { left: 0%; }
-    25% { left: 0%; }
-    30% { left: -100%; width: 100%; }
-    30.0001% { left: -100%; width: 0%; }
-    100% { left: 100%; width: 0%; }
-   }
+    background-color: rgb(219, 17, 17);
+}
+
+.pl {
+    position: relative;
+    display: flex;
+    list-style-type: none;
+    ;
+}
+
+#pe {
+    padding: 50px;
+}
