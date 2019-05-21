@@ -3,7 +3,15 @@ body {
     margin: 0px;
     padding: 0px;
 }
-
+main{
+    position: relative;
+    top:80px;
+    z-index: -10;
+    width: 100%;
+}
+header{
+    z-index: 10;
+}
 .navbar {
     height: 80px;
     background-color: #1864ab;
@@ -12,10 +20,26 @@ body {
 }
 
 #drop {
+    background-color: #f48055;
     position: fixed;
     top: 80px;
+    width: 100%;
+    height: auto;
+    display: none;
 }
-
+#drop a{
+    text-decoration: none;
+    color: black;
+}
+.drop-l{
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+    padding: 5px;
+    border-bottom: #ee541c solid thin;
+}
+.drop-l p{
+    padding-left: 55px;
+}
 #menu-list {
     position: relative;
     bottom: 10px;
@@ -51,22 +75,6 @@ li {
     font-weight: bold;
     margin: 20px;
     font-family: 'Roboto', sans-serif;
-}
-
-#drop {
-    width: 100%;
-    height: auto;
-    border-bottom: black solid thin;
-    display: none;
-}
-
-#drop-list {
-    list-style: none;
-}
-
-#drop-list a {
-    text-decoration: none;
-    color: black;
 }
 
 .navbar a {

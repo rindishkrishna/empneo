@@ -6,4 +6,6 @@ but.addEventListener('click', (e)=>{
     }else{
         document.querySelector('#drop').style.display = 'none'
     }
+    e.preventDefault();
 });
+
