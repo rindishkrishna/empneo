@@ -19,7 +19,7 @@ header{
 
 .navbar {
     height: 80px;
-    background-color: #1864ab;
+    background-color: #ee541c;
     width: 100%;
     position: fixed;
     top:0px;
@@ -47,9 +47,9 @@ header{
     border-bottom: #ee541c solid thin;
 }
 
-.drop-l p {
-
-    padding-left: 55px;
+.drop-l p{
+    padding-left: 30px;
+    margin-top: 10px;
 }
 #menu-list {
     position: relative;
@@ -67,19 +67,19 @@ header{
 button {
     position: relative;
     float: right;
-    top: 20px;
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
-    border-style: solid;
-    background-color: #ff652f;
-    border-color: #777676;
-    right: 50px;
+    padding: 0px;
+    top: 15px;
+    width: 50px;
+    height: 50px;
+    right: 40px;
     display: none;
+    background-color: transparent;
+    border-style: none;
 }
 
 #men {
-    width: 20px;
+    width: 50px;
+    margin: 0px;
 }
 
 li {
@@ -97,8 +97,134 @@ li {
     color: rgb(0, 11, 48);
     font-family: 'Merriweather Sans', sans-serif;
     text-align: middle;
-    padding-left: 60px;
+    padding-left: 30px;
 }
+
+.sec1 {}
+
+
+
+
+@media (max-width:700px) {
+    #menu-list {
+        display: none;
+    }
+    button {
+        display: block;
+    }
+    svg{
+        display: none;
+    }
+}
+
+#clouds {
+    bottom: 0px;
+    left: 0px;
+}
+
+#clouds path {
+    fill: rgb(156, 14, 14);
+}
+
+#day1 {
+    background-image: linear-gradient(#a30b0d, #f78384);
+    background-color: rgb(156, 14, 14);
+    padding-bottom: 18px;
+    margin: 0px;
+    
+}
+
+.day1t {
+    color: #ffff;
+}
+
+#day2 {
+    background-image: linear-gradient(#2682B8, #76a4bf);
+    background-color: rgb(38, 130, 184);
+    margin: 0;
+    padding-bottom: 18px;
+}
+
+.day2t {
+    color: rgb(14, 2, 2);
+}
+
+#bigTriangleColor1 path {
+    margin: 0;
+    fill:#f78384;
+}
+
+#bigTriangleColor2 path {
+    margin: 0;
+    fill: #76a4bf;
+
+}
+
+.workshops {
+    text-align: center;
+}
+
+.contact {
+    text-align: center;
+    background-color: rgb(219, 17, 17);
+}
+
+.pl {
+    position: relative;
+    display: flex;
+    list-style-type: none;
+    ;
+}
+
+#pe {
+    padding: 50px;
+
+}
+/* FOOTER */
+
+.f_title {
+  font-family: "Francois One", sans-serif;
+  font-size: 40px;
+}
+.Empneo {
+  font-family: "Macondo Swash Caps", cursive;
+  font-size: 90px;
+  color: white;
+  text-shadow: 2px 2px 4px #000000;
+  padding:20px;
+  margin: 0px;
+  height: 165px !important;
+}
+.f_content {
+  font-family: "Roboto Slab", serif;
+  font-size: 23px;
+ 
+}
+.f_content:hover {
+  text-decoration:none;
+   
+}
+.Explore {
+  padding: 40px;
+  padding-left: 200px;
+  font-size: 20px;
+  height: 235px !important;
+}
+.icons :nth-child(odd):hover,
+.icons :nth-child(even):hover {
+  transform: scale(1.3);
+  opacity: 0.4;
+  transition: 0.2s all ease-in-out;
+}
+.copyrights {
+  font-family: "Roboto Slab", serif;
+  font-size: 23px;
+  color: #ced4da;
+  text-shadow: 2px 2px 4px #000000;
+}
+.col-sm-3 {
+  padding: 40px;
+  font-size: 20px;
 
 .sec1 {}
 
@@ -228,7 +354,18 @@ li {
     margin-top: -28px;
 }
 
+
+.copyrights {
+  font-family: "Roboto Slab", serif;
+  font-size: 23px;
+  color: #ced4da;
+  text-shadow: 2px 2px 4px #000000;
+    widows: 100%;
+}
 #row{
+    width:100%;
+}
+
 
 
 #clouds path {
@@ -377,16 +514,4 @@ li {
 
 }
 
-.copyrights {
-    font-family: "Roboto Slab", serif;
-    font-size: 23px;
-    color: #ced4da;
-    text-shadow: 2px 2px 4px #000000;
-    @media (max-width: 700px) {
-        #menu-list {
-            display: none;
-        }
-        button {
-            display: block;
-        }
-    }
+
