@@ -1,4 +1,4 @@
-    body {
+body {
     background-color: #ffffff;
     margin: 0px;
     padding: 0px;
@@ -160,21 +160,22 @@ li {
 
 .contact {
     text-align: center;
-    height: 200px;
-    background-color: rgb(219, 17, 17);
+    padding-top: 10px;
+    margin-bottom: -10px;
+    background-color: rgb(24, 104, 170);
 }
 
 .pl {
     position: relative;
     display: flex;
+    align-items: center;
+    justify-content: center;
     list-style-type: none;
 }
 
 #pe {
-    text-align: center;
+    margin: 25px;
 }
-
-
 /* FOOTER */
 
 .f_title {
