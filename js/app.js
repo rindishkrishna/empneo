@@ -1,4 +1,4 @@
-let but = document.querySelector('#menu-but');
+let but = document.querySelector('#button');
 
 but.addEventListener('click', (e)=>{
     if(document.querySelector('#drop').style.display == 'none'){

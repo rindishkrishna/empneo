@@ -7,9 +7,10 @@
 
 main {
     position: relative;
-    top: 80px;
+    top:30px;
     z-index: -10;
     width: 100%;
+    margin-bottom: 30px;
 }
 
 header {
@@ -56,7 +57,7 @@ header {
     position: relative;
     bottom: 10px;
     top: 10px;
-    right: 50px;
+    right: 30px;
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -65,14 +66,14 @@ header {
     float: right;
 }
 
-button {
+#button {
     position: relative;
     float: right;
     padding: 0px;
     top: 15px;
     width: 50px;
     height: 50px;
-    right: 40px;
+    margin-right: 40px;
     display: none;
     background-color: transparent;
     border-style: none;
@@ -95,8 +96,9 @@ li {
 }
 
 #em {
-    margin-top: -10px;
-    padding-left: 10px;
+    width:80px;
+    float:left;
+    margin-left: 20px;
 }
 
 .contain {
@@ -108,21 +110,24 @@ li {
     #menu-list {
         display: none;
     }
-    button {
+    #button {
         display: block;
     }
     svg {
         display: none;
+    }
+    slider{
+        height: 300px;
     }
 }
 
 slider {
     display: block;
     width: 100%;
-    padding: 80.5px;
-    height: 100%;
+    height:500px;
     overflow: hidden;
-    position: absolute;
+    position: relative;
+    top:80px;
     margin: auto;
 }
 
@@ -203,13 +208,22 @@ slide p {
 }
 
 #about {
-    margin-top: -20px;
     width: 100%;
-    padding-top: 10px;
+    padding: 20px 50px;
     margin-bottom: -66px;
     background-color: #4abdac;
+    
 }
-
+h1{
+    font-size: 55px;
+    font-family: 'Ubuntu', sans-serif;
+}
+h3{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 30px;
+    line-height: 40px;
+    
+}
 #clouds {
     margin-top: -28px;
 }
@@ -229,6 +243,7 @@ slide p {
 
 #day1 {
     margin-top: -27px;
+    padding: 20px 50px;
     background-color: #76323F;
     margin-bottom: -99px;
 }
@@ -239,6 +254,7 @@ slide p {
 
 #day2 {
     margin-top: -28px;
+    padding: 20px 50px;
     background-color: rgb(38, 130, 184);
     padding-bottom: 18px;
 }
@@ -322,10 +338,4 @@ slide p {
 .col-sm-3 {
     padding: 40px;
     font-size: 20px;
-    @media (max-width: 700px) {
-        #menu-list {
-            display: none;
-        }
-        button {
-            display: block;
-        }
+    
