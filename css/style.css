@@ -7,10 +7,9 @@
 
 main {
     position: relative;
-    top:30px;
+    top: 80px;
     z-index: -10;
     width: 100%;
-    margin-bottom: 30px;
 }
 
 header {
@@ -21,7 +20,7 @@ header {
 
 .navbar {
     height: 80px;
-    background-color: #f3e3e3;
+    background-color: #d0ebff;
     width: 100%;
     position: fixed;
     top: 0px;
@@ -57,7 +56,7 @@ header {
     position: relative;
     bottom: 10px;
     top: 10px;
-    right: 30px;
+    right: 50px;
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -66,14 +65,14 @@ header {
     float: right;
 }
 
-#button {
+button {
     position: relative;
     float: right;
     padding: 0px;
     top: 15px;
     width: 50px;
     height: 50px;
-    margin-right: 40px;
+    right: 40px;
     display: none;
     background-color: transparent;
     border-style: none;
@@ -96,9 +95,8 @@ li {
 }
 
 #em {
-    width:80px;
-    float:left;
-    margin-left: 20px;
+    margin-top: -10px;
+    padding-left: 10px;
 }
 
 .contain {
@@ -110,24 +108,21 @@ li {
     #menu-list {
         display: none;
     }
-    #button {
+    button {
         display: block;
     }
     svg {
         display: none;
-    }
-    slider{
-        height: 300px;
     }
 }
 
 slider {
     display: block;
     width: 100%;
-    height:500px;
+    padding: 80.5px;
+    height: 100%;
     overflow: hidden;
-    position: relative;
-    top:80px;
+    position: absolute;
     margin: auto;
 }
 
@@ -140,6 +135,7 @@ slider>* {
     animation: slide 12s infinite;
     overflow: hidden;
     margin: auto;
+    background-attachment: fixed;
 }
 
 slide:nth-child(1) {
@@ -208,28 +204,31 @@ slide p {
 }
 
 #about {
+    margin-top: -20px;
     width: 100%;
-    padding: 20px 50px;
+    padding-top: 10px;
     margin-bottom: -66px;
     background-color: #4abdac;
-    
+    padding: 120px;
+    background-image: url(q.jpg);
+    background-attachment: fixed;
+    background-size: cover;
 }
-h1{
-    font-size: 55px;
-    font-family: 'Ubuntu', sans-serif;
+
+.emp{
+	text-align: center;
+	font-family: 'Rubik', sans-serif;
+	font-size: 100px;
+	font-weight: 900;
+	 text-shadow: 2px 2px 8px #228be6;
 }
-h3{
-    font-family: 'Open Sans', sans-serif;
-    font-size: 30px;
-    line-height: 40px;
-    
-}
+
 #clouds {
     margin-top: -28px;
 }
 
 #clouds path {
-    fill: #76323F;
+    fill: #0b7285;
 }
 
 #clouds1 {
@@ -238,31 +237,41 @@ h3{
 }
 
 #clouds1 path {
-    fill: rgb(38, 130, 184);
+    fill: #1098ad;
 }
 
 #day1 {
     margin-top: -27px;
-    padding: 20px 50px;
-    background-color: #76323F;
+    background-color: #0b7285;
     margin-bottom: -99px;
+    padding: 10px;
 }
 
 .day1t {
     color: rgb(19, 8, 8);
 }
 
+
 #day2 {
     margin-top: -28px;
-    padding: 20px 50px;
-    background-color: rgb(38, 130, 184);
+    background-color: #1098ad;
     padding-bottom: 18px;
+    padding: 20px;
 }
 
 .day2t {
     color: rgb(14, 2, 2);
 }
-
+#title
+{
+	font-family: 'Ubuntu', sans-serif;
+    font-size: 90px;
+    color: white;
+    text-shadow: 10px 10px 14px #000000;
+    padding: 20px;
+    margin: 0px;
+    height: 165px !important;
+}
 .workshops {
     text-align: center;
 }
@@ -290,6 +299,26 @@ h3{
 
 /* FOOTER */
 
+
+.flex-container {
+  display: flex;
+  flex-wrap:wrap;
+  margin: 0px;
+ justify-content: center;
+ 
+}
+
+.flex-container > div {
+  margin: 0px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+  width:448px;
+  align-content: stretch;
+
+}
+
+
 .f_title {
     font-family: "Francois One", sans-serif;
     font-size: 40px;
@@ -297,7 +326,7 @@ h3{
 
 .Empneo {
     font-family: "Macondo Swash Caps", cursive;
-    font-size: 90px;
+    font-size: 100px;
     color: white;
     text-shadow: 2px 2px 4px #000000;
     padding: 20px;
@@ -321,12 +350,27 @@ h3{
     height: 235px !important;
 }
 
-.icons :nth-child(odd):hover,
-.icons :nth-child(even):hover {
+
+icons.hover {
     transform: scale(1.3);
     opacity: 0.4;
     transition: 0.2s all ease-in-out;
 }
+
+
+.flex-container1 {
+  display: flex; 
+ background-color: #212529;
+    margin: 0px;
+  justify-content:space-evenly;
+  flex-wrap:wrap;
+}
+
+.flex-container1 > div {
+  padding: 6px;
+  width:10%;
+}
+
 
 .copyrights {
     font-family: "Roboto Slab", serif;
@@ -338,4 +382,11 @@ h3{
 .col-sm-3 {
     padding: 40px;
     font-size: 20px;
-    
+    @media (max-width: 700px) {
+        #menu-list {
+            display: none;
+        }
+
+        button {
+            display: block;
+        }
