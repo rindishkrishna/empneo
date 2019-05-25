@@ -350,7 +350,7 @@ header {
 }
 
 #drop {
-    background-color: #f48055;
+    background-color: #e5f1f9;
     position: fixed;
     top: 80px;
     width: 100%;
@@ -367,7 +367,7 @@ header {
     font-weight: bold;
     font-family: 'Roboto', sans-serif;
     padding: 5px;
-    border-bottom: #ee541c solid thin;
+    border-bottom: #D0EBFD solid 3px;
 }
 
 .drop-l p {
@@ -587,11 +587,15 @@ slide p {
     padding-bottom: 18px;
     padding: 20px;
     height: 800px;
+    align-content: center;
 }
 
 .day2t {
     color: rgb(14, 2, 2);
-    align-text: center;
+    display: block;
+    
+    margin-left: auto;
+    margin-right: auto;
 }
 
 #title {
@@ -631,15 +635,19 @@ slide p {
     margin: 25px;
 }
 
-.jk {
+#jk {
     background-color: #4CAF50;
     /* Green */
     border: none;
+    position: relative;
+    width:300px;
+    margin-left: auto;
+    margin-right: auto;
     color: white;
     padding: 15px 32px;
     text-align: center;
     text-decoration: none;
-    display: inline-block;
+    display: block;
     font-size: 16px;
 }
 

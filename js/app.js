@@ -1,4 +1,10 @@
-let but = document.querySelector('#button');
+let but = document.querySelector('#menu-but');
+let reg = document.querySelector('#jk');
+
+reg.addEventListener('click', ()=>{
+    console.log('go');
+    window.location = 'https://www.yepdesk.com/-empneo-3-0';
+});
 
 but.addEventListener('click', (e)=>{
     if(document.querySelector('#drop').style.display == 'none'){
