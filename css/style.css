@@ -163,7 +163,7 @@ slide:nth-child(3) {
 slide:nth-child(4) {
     left: 0%;
     animation-delay: 8s;
-    background-image: url(4.jpeg);
+    background-image: url(4.jpg);
     background-size: cover;
     background-position: center;
 }
