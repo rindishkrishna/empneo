@@ -1,6 +1,10 @@
 let but = document.querySelector('#menu-but');
 let reg = document.querySelector('#jk');
 
+window.setTimeout(function(){
+document.querySelector(".pre-loader").style.display=" none";
+}, 4000);
+
 reg.addEventListener('click', ()=>{
     console.log('go');
     window.location = 'https://www.yepdesk.com/-empneo-3-0';
