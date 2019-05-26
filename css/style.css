@@ -633,7 +633,8 @@ slide p {
 #pe {
     margin: 25px;
 }
-
+.as{
+        padding:30px;
 
 /* FOOTER */
 
@@ -777,7 +778,7 @@ icons.hover {
                       font-size: 20px;                    
                       }
             .slider {
-           height: 100vh;
+           height: 100px;
                 }
             #about {
         margin-top: -150px;                                                                                
