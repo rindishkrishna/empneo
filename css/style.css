@@ -314,7 +314,9 @@ slide p {
 .as {
     padding-top: 30px;
 }
-
+.text-back{
+    padding-top:40px;
+}
 
 /* FOOTER */
 
